@@ -1,0 +1,51 @@
+{% extends 'orders/main.html'%}
+{% load static %}
+{% block content %}
+<h3>manus page</h3>
+
+  <div class="row">
+    <div class="col-sm">
+
+      <img src="{% static 'images/pizza.jpg' %}" class="img-rounded" alt="Cinque Terre">
+      <div class="box-element product">
+        <h6><strong>Product</strong></h6>
+				<hr>
+
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="#">View</a>
+				<h4 style="display: inline-block; float: right"><strong>$20</strong></h4>
+
+
+			</div>
+    </div>
+    <div class="col-sm">
+      <img src="{% static 'images/pizza.jpg' %}" class="img-rounded" alt="Cinque Terre">
+
+      <div class="box-element product">
+        <h6><strong>Product</strong></h6>
+				<hr>
+
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="#">View</a>
+				<h4 style="display: inline-block; float: right"><strong>$20</strong></h4>
+
+
+			</div>
+    </div>
+    <div class="col-sm">
+      <img src="{% static 'images/pizza.jpg' %}" class="img-rounded" alt="Cinque Terre">
+
+      <div class="box-element product">
+        <h6><strong>Product</strong></h6>
+				<hr>
+
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="#">View</a>
+				<h4 style="display: inline-block; float: right"><strong>$20</strong></h4>
+
+
+			</div>
+    </div>
+  </div>
+
+{% endblock content %}
