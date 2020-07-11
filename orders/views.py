@@ -10,6 +10,6 @@ def cart(request):
 def checkout(request):
     return render(request,'orders/checkout.html')
 
-def manus(request):
+def menus(request):
 
-    return render(request, "orders/manus.html")
+    return render(request, "orders/menus.html")
